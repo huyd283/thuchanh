@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Cart</title>
+    <link type="text/css" rel="stylesheet" href="cart.css">
+    <link type="text/css" rel="stylesheet" href="fontawesome/css/all.css"/>
+    <style>
+        #tt1 {
+           border: 2px solid red;
+           width: 120px;
+           color: black;
+           font-size: 25px;
+        }
+        
+    </style>
+  
+</head>
+<body>
+    <div id="btl">
+        <div id="header">
+            <div id="logo"><img  src="image/logo.png" alt="Logo"></div>
+            <div id="search_field"><input type="text" placeholder="Tìm kiếm..." name="search"><a href="#"><i class="fas fa-search"></i></a></div>
+            <div id="cart"><a href="login.html">Đăng nhập </a>|<a href="#"> Giỏ hàng <i class="fas fa-shopping-cart"></i></a>(<a id="slcart">5</a>)</div>
+        </div>
+        <div id="menu_top">
+            <div id="sp"><a><i class="fas fa-bars"></i> Danh mục sản phẩm</a></div>
+            <div id="menu1">
+                <ul >
+                    <li class="menu1_1"><a href="index.html">Trang chủ</a></li>
+                    <li class="menu1_1" ><a href="gioithieu.html">Giới thiệu</a></li>
+                    <li class="menu1_1"><a href="news.html">Tin tức</a></li>
+                    <li class="menu1_1"><a href="contact.html">Liên hệ</a></li>
+                </ul>
+            </div>   
+        </div>
+        <div id="main1">
+            <div id="danh_muc">
+                <div id="danhmucsp_giay">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Adidas</a></li>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Nike</a></li>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Converse</a></li>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày MLB</a></li>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Puma</a></li>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Vans</a></li>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Nam</a></li>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Nữ</a></li>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Trẻ em</a></li>
+                    </ul>
+                </div>
+                
+
+                <div id="giam_gia">
+                    <a>Giảm giá hot</a><br>
+                    <img src="image/khuyenmai.png" alt="Khuyen mai">
+                </div>
+
+            </div>
+            <div id="main2">
+                <h2>Giỏ hàng</h2>
+                <div id="div_cart">
+                    <div id="tbmua">
+                        <h2>Giỏ hàng trống</h2>
+                    </div>
+                    
+                    <div id="sp_cart2" >
+                        <img src="image/mlbsell.jpg" width="190px" title="MLB Chunky A">
+                        <br>
+						<a><b>MLB Chunky A</b></a><br>
+                        <a>Số lượng :1</a><br>
+                        <a>Size: 41</a><br>
+                        <a>Giá: 1.680.000đ</a>
+                        <input type="button" value="Xóa" onclick="xoacart()">
+                    </div>
+                    
+                </div>
+                <div class="thanhtoan" >
+                    <li  ><a id="tt1" href="tt.html" >Thanh toán</a></li>
+                </div>
+                
+            </div>
+        </div><br>
+       
+        <div id="footer">
+            <div id="footer1">
+                <h3>Liên hệ</h3>
+                <p>Địa chỉ : 96 Định Công, Hoàng Mai ,Hà Nội</p>
+                <p>SĐT :0123456789</p>
+                <p>Email : 123@gmail.com</p>
+            </div>
+            <div id="footer2">
+                <h3>Dịch vụ khách hàng</h3>
+                <a href="#">My account</a><br><br>
+                <a href="#">Order history</a><br><br>
+                <a href="#">Special</a><br><br>
+            </div>
+        </div>
+    </div>
+    
+      
+</body>
+<script src="btl.js"></script>
+<script src="cart.js"></script>
+</html>

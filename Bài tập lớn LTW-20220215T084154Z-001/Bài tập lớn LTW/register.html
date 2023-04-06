@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Đăng ký</title>
+    <link type="text/css" rel="stylesheet" href="btl.css">
+    <link type="text/css"rel="stylesheet" href="register.css">
+    <link type="text/css" rel="stylesheet" href="fontawesome/css/all.css"/>
+  
+</head>
+<script src="register.js"></script>
+<body>
+    <div id="btl">
+        <div id="header">
+            <div id="logo"><img  src="image/logo.png" alt="Logo"></div>
+            <div id="search_field"><input type="text" placeholder="Tìm kiếm..." name="search"><a href="#"><i class="fas fa-search"></i></a></div>
+            <div id="cart"><a href="login.html">Đăng nhập </a>|<a href="cart.html"> Giỏ hàng <i class="fas fa-shopping-cart"></i></a></div>
+        </div>
+        <div id="menu_top">
+            <div id="sp"><a><i class="fas fa-bars"></i> Danh mục sản phẩm</a></div>
+            <div id="menu1">
+                <ul >
+                    <li class="menu1_1"><a href="index.html">Trang chủ</a></li>
+                    <li class="menu1_1"><a href="gioithieu.html">Giới thiệu</a></li>
+                    <li class="menu1_1"><a href="news.html">Tin tức</a></li>
+                    <li class="menu1_1"><a href="contact.html">Liên hệ</a></li>
+                </ul>
+            </div>   
+        </div>
+        <div id="main1">
+            <div id="danh_muc">
+                <ul>
+                    <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Adidas</a></li>
+                    <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Nike</a></li>
+                    <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Converse</a></li>
+                    <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày MLB</a></li>
+                    <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Puma</a></li>
+                    <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Vans</a></li>
+                    <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Nam</a></li>
+                    <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Nữ</a></li>
+                    <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Trẻ em</a></li>
+                </ul>
+
+                <div id="giam_gia">
+                    <a>Giảm giá hot</a>
+                    <img src="image/khuyenmai.png" alt="Khuyen mai">
+                </div>
+
+            </div>
+
+         <div id="main2">
+                <div id="banner">
+                    <img src="image/banner.png" alt="banner" >
+                </div>
+
+            <div class="form">
+          <h1>ĐĂNG KÝ</h1>
+           <p>Vui lòng điền thông tin tài khoản</p>
+           <hr>
+
+         
+            <span>Họ tên</span>
+            <input class="input_text" type="text" name="txtHoTen" id="txtHoTen" value="" placeholder="Your name.." />
+            <br>
+            <span>Email</span>
+            <input class="input_text" type="email" name="txtEmail" id="txtEmail" value=""  placeholder="Email.."/>
+            <br>
+            <span>Ngày sinh</span>
+            <input class="input_text" type="date" name="txtNgay" id="txtNgay"  value=""><br>
+            <span>Tài khoản</span>
+            <input class="input_text" type="text" name="txtUsername" id="txtUsername" value=""  placeholder="Username..">
+            <br>
+            <span>Mật khẩu</span>
+            <input class="input_text" type="password" name="txtMatKhau" id="txtMatKhau" value=""><br>
+            <span>Xác nhận</span>
+            <input class="input_text" type="password" name="txtrepass" id="txtrepass"  value=""><br>
+             <hr>
+             <p id="Error" style="display: none;"></p>
+
+              <div id="btn">
+            <button type="submit" name="submit" onclick="register()">Đăng ký</button> 
+            <button type="reset" name="huy" >Hủy</button>
+            <p>Bạn đã có tài khoản rồi? <a href="login.html">Đăng nhập</a>.</p>
+        </div>
+               </form>
+         </div>
+         </div>
+     </div>
+
+                 <div id="footer">
+            <div id="footer1">
+                <h3>Liên hệ</h3>
+                <p>Địa chỉ : 96 Định Công, Hoàng Mai ,Hà Nội</p>
+                <p>SĐT :0123456789</p>
+                <p>Email : 123@gmail.com</p>
+            </div>
+            <div id="footer2">
+                <h3>Dịch vụ khách hàng</h3>
+                <a href="#">My account</a><br><br>
+                <a href="#">Order history</a><br><br>
+                <a href="#">Special</a><br><br>
+            </div>
+</div>
+</div>
+</body>
+</html>

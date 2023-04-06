@@ -1,0 +1,31 @@
+#news a{
+    color: #f93b15;
+}
+#news{
+    background: #4b4747;
+}
+#tt{
+    color: red;
+    font-size: 35px;
+}
+#tintuc{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(9,180px);
+    height: 1620px;
+    background-color: aliceblue;
+}
+#tintuc img{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    float: left;
+}
+#tintuc1{
+    margin-left: 20px;
+    background-color: white;
+    width: 890px;
+    padding: 10px;
+    padding-right: 30px;
+    border-bottom: 1px solid red;
+}

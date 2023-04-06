@@ -1,0 +1,775 @@
+body{
+   
+    padding: 0px;
+    margin: 0px;
+    background-color: #f5f5f5;
+}
+a{
+    text-decoration: none;
+}
+#btl{
+    display: grid;
+    grid-template-columns: repeat(12,8.33333%);
+}
+#header{
+    display: grid;
+    grid-template-columns: repeat(12,8.33333%);
+    width: 100%;
+    grid-column: 1/13;
+    height: 104px;
+}
+#logo{
+    grid-column: 1/4;
+    margin-left: 20px;
+}
+#logo img{
+    width: 200px;
+    height: 100px;
+}
+#search_field{
+    grid-column: 5/8;
+    margin-top: 30px;
+    width: 305px;
+    height: 33px;
+    border: 1px solid black;
+}
+#search_field input{
+    width: 260px;
+    line-height: 27px;
+}
+#search_field i{
+    font-size: 20px;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+#cart{
+    height: 23px;
+    grid-column: 10/13;
+    font-size: 20px;
+    margin-left: 45px;
+    margin-top: 30px;
+    float: left;
+}
+#slcart {
+    width: 20px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0px;
+}
+
+
+#menu_top {
+    grid-template-columns: repeat(12,8.33333%);
+    display: grid;
+    grid-column: 1/13;
+    background-color: black;
+    font-size: 15px;
+    height: 50px;
+}
+#trangc a{
+    color: #f93b15;
+}
+#menu_top #sp{
+    height: 38px;
+    font-size: 25px;
+    color: white;
+    padding-top: 12px;
+    background-color: red;
+    grid-column: 1/4;
+}
+#menu_top #sp a{
+    margin-left: 36px;
+}
+#menu1{
+    grid-column: 4/13;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+}
+#menu_top ul{
+    list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+#menu_top ul li{
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 10px;
+}
+
+.menu1_1  a{
+    color: white;
+}
+#menu_top ul li:hover{
+    color: #f93b15;
+    background: #4b4747;
+}
+#menu_top ul li:hover a{
+    color: #f93b15;
+}
+#trangc{
+    background: #4b4747;
+}
+
+
+
+#main1{
+    display: grid;   
+    grid-template-columns: repeat(12,8.33333%);
+    grid-column: 1/13; 
+    height: 1100px; 
+}
+#danh_muc{
+    grid-column: 1/4;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+#danh_muc ul{
+    list-style-type: none;
+    display: grid;
+    padding-left: 31px;
+ 
+}
+#danh_muc ul li{
+    border: 1px solid gray;
+    font-size: 25px;
+    line-height: 40px;
+    width: 260px;
+    height: 42px;
+    background-color: white;
+}
+
+#danh_muc ul li i{
+    margin-left: 10px;
+    color: black;
+}
+#danh_muc ul li i:hover{
+    color: red;
+}
+#danh_muc ul li a{
+    color: black;
+}
+#danh_muc ul li a:hover{
+    color: red;
+}
+
+#giam_gia{
+    grid-column: 1/4;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: red;
+    font-size: 30px;
+}
+#giam_gia img{
+    width: 264px;
+    height: 280px;
+}
+
+#main2{
+    grid-column: 4/13;
+}
+#main2 h2{
+    margin-left: 30px;
+    color: red;
+}
+
+#banner{
+    padding-left: 25px;
+    padding-top: 25px;
+}
+#banner img{
+    width: 910px;
+    height: 270px;
+}
+#san_pham{
+    grid-column: 4/13;
+    margin: 10px;
+}
+.sp1{
+    width: 270px;
+    height: 335px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    float: left;
+    background-color: white;
+}
+
+.sp1 img{
+    width: 235px;
+    height: 230px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sp1 p{
+    margin-left: 20px;
+    width: 150px;
+    float: left;
+    font-size: 18px;
+    line-height: 18px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-end: 0px;
+}
+.sp1 h3{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    width: 230px;
+    font-size: 20px;
+    line-height: 20px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-end: 0px;
+}
+.sp1 input{
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.sp1 input:hover{
+    color: #f93b15;
+}
+#infor_sp1{
+    display: none;
+    position: absolute;
+    width: 620px;
+    height: 410px;
+    background-color:white;
+    top: 464px;
+    left: 380px;
+    border: 1px solid black;
+}
+#infor_sp1 img{
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    border: 1px solid cornsilk;
+    width: 240px;
+    height: 240px;
+}
+#infor_sp1 #tt{
+    float: left;
+    width: 275px;
+    height: 242px;
+    margin-top: 33px;
+    margin-left: 30px;
+}
+#infor_sp1 input:hover{
+    color: red;
+}
+#sl_sp{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+#sl_sp input{
+    float: left;
+}
+#input_tru{
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+#input_cong{
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px ;
+}
+#sl_sp #txtslg{
+    float: left;
+    width: 37px;
+    font-size: 19px;
+    margin-left:3px;
+    margin-right: 0px;
+    margin-block-start: 4px;
+    text-align: center;
+}
+#quaylai{
+    margin-top: 50px;
+    margin-left: 148px;
+    margin-right: 80px;
+    font-size: 19px;
+    width: 95px;
+    height: 45px;
+}
+#themhang{
+    height: 45px;
+    font-size: 19px;
+}
+
+#infor_sp2{
+    position: absolute;
+    width: 620px;
+    height: 410px;
+    background-color: white;
+    top: 835px;
+    left: 380px;
+    border: 1px solid black;
+    display: none;
+}
+#infor_sp2 img{
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    border: 1px solid cornsilk;
+    width: 240px;
+    height: 240px;
+}
+#infor_sp2 #tt2{
+    float: left;
+    width: 275px;
+    height: 242px;
+    margin-top: 33px;
+    margin-left: 30px;
+}
+#infor_sp2 input:hover{
+    color: red;
+}
+#sl_sp2{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+#sl_sp2 input{
+    float: left;
+}
+#input_tru2{
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+#input_cong2{
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px ;
+}
+#sl_sp2 #txtslg2{
+    float: left;
+    width: 37px;
+    font-size: 19px;
+    margin-left:3px;
+    margin-right: 0px;
+    margin-block-start: 4px;
+    text-align: center;
+}
+#quaylai2{
+    margin-top: 50px;
+    margin-left: 148px;
+    margin-right: 80px;
+    font-size: 19px;
+    width: 95px;
+    height: 45px;
+}
+#themhang2{
+    height: 45px;
+    font-size: 19px;
+}
+
+#tintuc{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(100px);
+    background-color: salmon;
+    height: 900px;
+}
+
+
+
+#footer{
+    display: grid;
+    grid-column: 1/13;
+    height: 200px;
+    grid-template-columns: repeat(12,8.33333%);;
+    background-color: black;
+    color: white;
+}
+#footer1{
+   grid-column: 4/8;
+}
+#footer2{
+    grid-column: 8/13;
+}
+#footer2 a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer2 a:hover{
+    color: #f93b15;
+}
+
+
+@media only screen and (max-width: 767px){
+ 
+    #btl{
+        grid-template-rows: 180px 250px 3300px 200px;
+    }
+    #header{
+        height: 180px;
+    }
+    #logo{
+        grid-column: 1/13;
+    }
+
+    #search_field{
+        grid-column: 1/13;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+    
+    #cart{
+        grid-column: 1/13;
+        height: 40px;
+        margin-top: 8px;
+        margin-left: 126px;
+    }
+    #menu_top{
+        grid-template-rows: 200px 50px;
+        height: 250px;
+
+    }
+    #sp{
+        grid-column: 1/13 !important;
+        grid-row: 2/3;
+        width: 100%;
+        text-align: center;
+    }
+    #menu1{
+        grid-row: 1/2;
+        grid-column: 1/13;
+        display: grid;
+        padding: 0px 0px 0px 0px;
+    }
+    #menu_top ul li{
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    #menu_top ul{
+        padding-inline-start: 0px;
+    }
+    #main1{
+        display: grid;
+        grid-column: 1/13;
+        grid-template-rows: 750px 2350px 200px;
+    }
+    #danh_muc{
+        display: grid;
+        grid-column: 1/13 !important;
+        grid-row: 1/2;
+        grid-template-rows: 400px 350px;
+    }
+    
+    #main2{
+        grid-row: 2/3;
+        grid-column: 1/13 !important;
+        grid-template-rows: 300px 2050px;
+    }
+    
+    #danh_muc ul li{
+        width: 100%;
+    }
+    #danhmucsp_giay{
+        grid-column: 1/13;
+    }
+    #danh_muc ul{
+        padding-left: 3px;
+    }
+    #giam_gia{
+        grid-column: 1/13;
+        margin-left: 1% !important;
+        
+    }
+    #giam_gia a{
+        float: left;
+        text-align: center;
+        margin-left: 113px;
+    }
+    #giam_gia img{
+        clear: both;
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+    
+    #banner{
+        grid-row: 1/2;
+        grid-column: 1/13;
+        padding-left: 0px;
+    }
+    #san_pham{
+        grid-row: 2/3;
+        grid-column: 1/13;
+    }
+    #banner img{
+        grid-column: 1/13;
+        width: 99%;
+        height: 100%;
+        margin-left: 0.5%;
+        
+    }
+    #main2 h2{
+        margin-left: 0px;
+    }
+    #san_pham .sp1{
+        margin-left: 60px;
+    }
+
+    #footer1{
+        grid-column: 2/6;
+    }
+
+    #infor_sp1 {
+        display: none;
+        position: absolute;
+        width: 458px;
+        height: 410px;
+        background-color: white;
+        top: 1800px;
+        left: 8px;
+        border: 1px solid black;
+    }
+    #infor_sp1 img{
+        width: 190px;
+        height: 200px;
+    }
+    #infor_sp1 #tt {
+        float: left;
+        width: 204px;
+        height: 242px;
+        margin-top: 5px;
+        margin-left: 17px;
+    }
+    #quaylai {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 80px;
+        font-size: 19px;
+        width: 95px;
+        height: 45px;
+    }
+    #infor_sp2 {
+        display: none;
+        position: absolute;
+        width: 458px;
+        height: 410px;
+        background-color: white;
+        top: 2900px;
+        left: 8px;
+        border: 1px solid black;
+    }
+    #infor_sp2 img{
+        width: 190px;
+        height: 200px;
+    }
+    #infor_sp2 #tt2 {
+        float: left;
+        width: 204px;
+        height: 242px;
+        margin-top: 5px;
+        margin-left: 17px;
+    }
+    #quaylai2 {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 80px;
+        font-size: 19px;
+        width: 95px;
+        height: 45px;
+    }
+}
+
+
+
+@media(min-width: 768px) and (max-width: 1023px) {
+    #btl{
+        grid-template-rows: 180px 250px 2200px 200px;
+    }
+    #header{
+        height: 180px;
+    }
+    #logo{
+        grid-column: 1/13;
+    }
+
+    #search_field{
+        grid-column: 1/13;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+    
+    #cart{
+        grid-column: 1/13;
+        height: 40px;
+        margin-top: 8px;
+        margin-left: 126px;
+    }
+    #menu_top{
+        grid-template-rows: 200px 50px;
+        height: 250px;
+
+    }
+    #sp{
+        grid-column: 1/13 !important;
+        grid-row: 2/3;
+        width: 100%;
+        text-align: center;
+    }
+    #menu1{
+        grid-row: 1/2;
+        grid-column: 1/13;
+        display: grid;
+        padding: 0px 0px 0px 0px;
+    }
+    #menu_top ul li{
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    #menu_top ul{
+        padding-inline-start: 0px;
+    }
+    #main1{
+        display: grid;
+        grid-column: 1/13;
+        grid-template-rows: 750px 2350px 200px;
+    }
+    #danh_muc{
+        display: grid;
+        grid-column: 1/13 !important;
+        grid-row: 1/2;
+        grid-template-rows: 400px 350px;
+    }
+    
+    #main2{
+        grid-row: 2/3;
+        grid-column: 1/13 !important;
+        grid-template-rows: 300px 2050px;
+    }
+    
+    #danh_muc ul li{
+        width: 100%;
+    }
+    #danhmucsp_giay{
+        grid-column: 1/13;
+    }
+    #danh_muc ul{
+        padding-left: 3px;
+    }
+    #giam_gia{
+        grid-column: 1/13;
+        margin-left: 180px !important;
+        
+    }
+    #giam_gia a{
+        float: left;
+        text-align: center;
+        margin-left: 113px;
+    }
+    #giam_gia img{
+        clear: both;
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+    
+    #banner{
+        grid-row: 1/2;
+        grid-column: 1/13;
+        padding-left: 0px;
+    }
+    #san_pham{
+        grid-row: 2/3;
+        grid-column: 1/13;
+    }
+    #banner img{
+        grid-column: 1/13;
+        width: 99%;
+        height: 100%;
+        margin-left: 0.5%;
+        
+    }
+    #main2 h2{
+        margin-left: 0px;
+    }
+    #san_pham .sp1{
+        margin-left: 60px;
+    }
+
+    #footer1{
+        grid-column: 2/6;
+    }
+
+    #infor_sp1 {
+        display: none;
+        position: absolute;
+        width: 458px;
+        height: 410px;
+        background-color: white;
+        top: 1650px;
+        left: 145px;
+        border: 1px solid black;
+    }
+    #infor_sp1 img{
+        width: 190px;
+        height: 200px;
+    }
+    #infor_sp1 #tt {
+        float: left;
+        width: 204px;
+        height: 242px;
+        margin-top: 5px;
+        margin-left: 17px;
+    }
+    #quaylai {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 80px;
+        font-size: 19px;
+        width: 95px;
+        height: 45px;
+    }
+    #infor_sp2 {
+        display: none;
+        position: absolute;
+        width: 458px;
+        height: 410px;
+        background-color: white;
+        top: 1990px;
+        left: 145px;
+        border: 1px solid black;
+    }
+    #infor_sp2 img{
+        width: 190px;
+        height: 200px;
+    }
+    #infor_sp2 #tt2 {
+        float: left;
+        width: 204px;
+        height: 242px;
+        margin-top: 5px;
+        margin-left: 17px;
+    }
+    #quaylai2 {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 80px;
+        font-size: 19px;
+        width: 95px;
+        height: 45px;
+    }
+}

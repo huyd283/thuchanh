@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Trang chủ</title>
+    <link type="text/css" rel="stylesheet" href="btl.css">
+    <link type="text/css" rel="stylesheet" href="fontawesome/css/all.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<body>
+    <div id="btl">
+        <div id="header">
+            <div id="logo"><img  src="image/logo.png" alt="Logo"></div>
+            <div id="search_field"><input type="text" placeholder="Tìm kiếm..." name="search"><a><input type="button" value="Tìm" onclick="chitiet()"></a></div>
+            <div id="cart"><a href="login.html">Đăng nhập </a>|<a href="cart.html"> Giỏ hàng <i class="fas fa-shopping-cart"></i></a>(<a id="slcart">0</a>)</div>
+        </div>
+        <div id="menu_top">
+            <div id="sp"><a><i class="fas fa-bars"></i> Danh mục sản phẩm</a></div>
+            <div id="menu1">
+                <ul >
+                    <li id="trangc" ><a href="index.html">Trang chủ</a></li>
+                    <li class="menu1_1" ><a href="gioithieu.html">Giới thiệu</a></li>
+                    <li class="menu1_1"><a href="news.html">Tin tức</a></li>
+                    <li class="menu1_1"><a href="contact.html">Liên hệ</a></li>
+                </ul>
+            </div>   
+        </div>
+        <div id="main1">
+            <div id="danh_muc">
+                <div id="danhmucsp_giay">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Adidas</a></li>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Nike</a></li>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Converse</a></li>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày MLB</a></li>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Puma</a></li>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Vans</a></li>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Nam</a></li>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Nữ</a></li>
+                        <li><a href="#"><i class="fas fa-shoe-prints"></i>  Giày Trẻ em</a></li>
+                    </ul>
+                </div>
+                
+
+                <div id="giam_gia">
+                    <a>Giảm giá hot</a><br>
+                    <img src="image/khuyenmai.png" alt="Khuyen mai">
+                </div>
+
+            </div>
+            <div id="main2">
+                <div id="banner">
+                    <img src="image/banner.png" alt="banner" >
+                </div>
+                <h2>Sản phẩm nổi bật</h2>
+                <div id="san_pham">
+                    <div class="sp1">
+                        <img src="image/mlbsell.jpg">
+                        <hr/>
+                        <h3>MBL Chunky A</h3>
+                        <br>
+                        <p>1.680.000 đ</p>
+                        <input type="button" value="Mua" onclick="chitiet()">
+                    </div>
+                    <div class="sp1">
+                        <img src="image/ultra.jpg">
+                        <hr>
+                        <h3>Ultraboost Đỏ Mận</h3>
+                        <br>
+                        <p>680.000 đ</p>
+                        <input type="button" value="Mua" onclick="chitiet()">
+                    </div>
+                    <div class="sp1">
+                        <img src="image/vans.jpg">
+                        <hr>
+                        <h3>Vans Hoa Cúc</h3>
+                        <br>
+                        <p>1.000.000 đ</p>
+                        <input type="button" value="Mua" onclick="chitiet()">
+                    </div>
+                    <div class="sp1">
+                        <img src="image/pumasell.jpg">
+                        <hr>
+                        <h3>Puma Hồng</h3>
+                        <br>
+                        <p>1.100.000 đ</p>
+                        <input type="button" value="Mua" onclick="chitiet1()">
+                    </div>
+                    <div class="sp1">
+                        <img src="image/nikegd.png">
+                        <hr>
+                        <h3>Nike X G-Dragon</h3>
+                        <br>
+                        <p>2.000.000 đ</p>
+                        <input type="button" value="Mua" onclick="chitiet1()">
+                    </div>
+                    <div class="sp1">
+                        <img src="image/cvsell.jpg">
+                        <hr>
+                        <h3>Converse 1970s Sunflower</h3>
+                        <br>
+                        <p>880.000 đ</p>
+                        <input type="button" value="Mua" onclick="chitiet1()">
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+       
+        <div id="footer">
+            <div id="footer1">
+                <h3>Liên hệ</h3>
+                <p>Địa chỉ : 96 Định Công, Hoàng Mai ,Hà Nội</p>
+                <p>SĐT :0123456789</p>
+                <p>Email : 123@gmail.com</p>
+            </div>
+            <div id="footer2">
+                <h3>Dịch vụ khách hàng</h3>
+                <a href="#">My account</a><br><br>
+                <a href="#">Order history</a><br><br>
+                <a href="#">Special</a><br><br>
+            </div>
+        </div>
+    </div>
+    <div id="infor_sp1">
+        <img src="image/mlbsell.jpg" alt="San pham">
+        <div id="tt">
+            <p>Giá : 1.680.000đ</p>
+            <hr>
+            <p>Size :</p>
+            <input id="sizeg1" type="button" value="38" onclick="chonsize1()">
+            <input id="sizeg2" type="button" value="39" onclick="chonsize2()">
+            <input id="sizeg3" type="button" value="40" onclick="chonsize3()">
+            <input id="sizeg4" type="button" value="41" onclick="chonsize4()">
+            <hr>
+            <p>Số lượng : </p>
+            <div id="sl_sp"><input id="input_tru"type="button" value="-" onclick="trusl()"> <div id="txtslg">1</div> <input id="input_cong" type="button" value="+" onclick="congsl()"> </div>
+            <hr>
+        </div>
+        <br><br>
+        <div>
+            <input id="quaylai" type="button" value="Quay lại" onclick="thoat()"> 
+            <input id="themhang" type="button" value="Thêm vào giỏ hàng" onclick="themcart()">
+        </div>
+        
+        
+    </div>
+    <div id="infor_sp2">
+        <img src="image/pumasell.jpg" alt="San pham">
+        <div id="tt2">
+            <p>Giá : 1.100.000đ</p>
+            <hr>
+            <p>Size :</p>
+            <input id="sizeg1_2" type="button" value="38" onclick="chonsize1_2()">
+            <input id="sizeg2_2" type="button" value="39" onclick="chonsize2_2()">
+            <input id="sizeg3_2" type="button" value="40" onclick="chonsize3_2()">
+            <input id="sizeg4_2" type="button" value="41" onclick="chonsize4_2()">
+            <hr>
+            <p>Số lượng : </p>
+            <div id="sl_sp2"><input id="input_tru2"type="button" value="-" onclick="trusl2()"> <div id="txtslg2">1</div> <input id="input_cong2" type="button" value="+" onclick="congsl2()"> </div>
+            <hr>
+        </div>
+        <br><br>
+        <div>
+            <input id="quaylai2" type="button" value="Quay lại" onclick="thoat2()"> 
+            <input id="themhang2" type="button" value="Thêm vào giỏ hàng" onclick="themcart2()">
+        </div>
+    </div>
+      
+</body>
+<script src="btl.js"></script>
+</html>
